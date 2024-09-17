@@ -1,10 +1,8 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
-
     --color-primary: hsl(197, 94%, 14%);
     --color-secondary: hsl(358, 39%, 51%);
     --color-font: hsla(0, 0%, 100%, 0.902);
-
     --color-shadow: hsl(235, 36%, 35%);
 }
 
@@ -21,9 +19,7 @@ html, body {
     font-family: 'Open sans', sans-serif;
 }
 
-p,
-i,
-h1 {
+p, i, h1 {
     color: var(--color-font);
 }
 
@@ -61,7 +57,7 @@ section {
     margin-block: 5rem;
     padding: 1rem;
     border-radius: 10rem;
-    -webkit-box-shadow: 0px 0px 15px 10px var(--color-shadow); 
+    -webkit-box-shadow: 0px 0px 15px 10px var(--color-shadow);
     box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
 
@@ -82,7 +78,7 @@ section {
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 15px 10px var(--color-shadow); 
+    -webkit-box-shadow: 0px 0px 15px 10px var(--color-shadow);
     box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
 
@@ -135,3 +131,4 @@ section {
 .controls #reset {
     display: none;
 }
+
